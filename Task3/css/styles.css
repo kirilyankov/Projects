@@ -220,7 +220,7 @@ div.image-block div.row1 div#left{
   width: 307px;
   height: 74px;
   background: url(../img/img1.jpg) no-repeat;
-  background-position: 0, 50%;
+  background-position: 50%, 50%;
   margin-right: 5px;
   float: left;
 }
@@ -228,7 +228,7 @@ div.image-block div.row1 div#center{
   width: 315px;
   height: 74px;
   background: url(../img/img2.jpg) no-repeat;
-  background-position: 0, 50%;  
+  background-position: 50%, 50%;  
   margin-right: 6px;
   float: left;
 }
@@ -236,7 +236,7 @@ div.image-block div.row1 div#right{
   width: 307px;
   height: 74px;
   background: url(../img/img3.jpg) no-repeat;
-  background-position: 0, 50%;
+  background-position: 50%, 50%;
   float: left;
 }
 div.image-block div.row2{
@@ -246,7 +246,7 @@ div.image-block div.row2 div#bigLeft{
   width: 627px;
   height: 299px;
   background: url(../img/img4.jpg) no-repeat;
-  background-position: 0, 50%;
+  background-position: 50%, 50%;
   margin-right: 6px;
   float: left;
 }
@@ -259,7 +259,7 @@ div.image-block div.row2 div#rightContainer div#top{
   width: 307px;
   height: 183px;
   background: url(../img/img5.jpg) no-repeat;
-  background-position: 0, 50%;
+  background-position: 50%, 50%;
 }
 div.image-block div.row2 div#rightContainer div#bottom{
   width: 307px;
@@ -267,4 +267,30 @@ div.image-block div.row2 div#rightContainer div#bottom{
   background: url(../img/img6.jpg) no-repeat;
   background-position: 50%, 50%;
   margin-top: 6px;
+}
+div.image-block div.row3{
+  margin-top: 6px;
+}
+div.image-block div.row3 div#left{
+  width: 307px;
+  height: 116px;
+  background: url(../img/img7.jpg) no-repeat;
+  background-position: 50%, 50%;
+  margin-right: 5px;
+  float: left;
+}
+div.image-block div.row3 div#center{
+  width: 315px;
+  height: 116px;
+  background: url(../img/img8.jpg) no-repeat;
+  background-position: 50%, 50%;  
+  margin-right: 6px;
+  float: left;
+}
+div.image-block div.row3 div#right{
+  width: 307px;
+  height: 116px;
+  background: url(../img/img9.jpg) no-repeat;
+  background-position: 50%, 50%;
+  float: left;
 }
