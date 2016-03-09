@@ -343,3 +343,36 @@ ul.navigation{
   padding-left: 1px;
   margin-top: 40px;
 }
+div#articlesWrapper{
+  margin-top: 25px;
+  width: 940px;
+  height: 1460px;
+}
+article{
+  width: 220px;
+}
+article a{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+a img#article1{
+  display: block;
+  width: 220px;
+  height: auto;
+}
+
+div#articlesWrapper{
+/*  -moz-column-width:220px;
+-moz-columns:220px;
+-webkit-columns:220px;
+columns: 220px;*/
+       -moz-column-count: 4;
+       -moz-column-gap: 21px;
+       -webkit-column-count: 4;
+       -webkit-column-gap: 21px;
+/*       -moz-column-width: 220px;
+       -webkit-column-width: 220px;
+       column-width: 220px;*/
+
+}

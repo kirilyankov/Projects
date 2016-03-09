@@ -32,6 +32,128 @@
 		<li><a href="index.php">&nbspART<span>&nbsp/</span></li>
 		<li><a href="index.php">&nbspDEVELOPMENT</li>
 	</ul>
+	<div id="articlesWrapper" class="three-col">
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+		<article>
+			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
+			<figure>
+				<h3>Sticker Mule</h3>
+				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+			<img src="img/moreButton.png" alt="more">
+			<p>More</p>			
+		</article>
+	</div>
 </div>
 
 <?php include('templates/footer.php') ?>
