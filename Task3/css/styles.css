@@ -356,10 +356,18 @@ article a{
   width: 100%;
   height: auto;
 }
+article figure{
+  width: 220;
+  height: auto;
+  margin:0;
+  padding-left: 13px;
+  padding-right: auto;
+}
 a img#article1{
   display: block;
   width: 220px;
   height: auto;
+  margin-bottom: 14px;
 }
 img.inline{
   float: left;
@@ -367,16 +375,14 @@ img.inline{
     padding-bottom: 4px;
 }
 div#articlesWrapper{
-/*  -moz-column-width:220px;
--moz-columns:220px;
--webkit-columns:220px;
-columns: 220px;*/
-       -moz-column-count: 4;
-       -moz-column-gap: 21px;
-       -webkit-column-count: 4;
-       -webkit-column-gap: 21px;
-/*       -moz-column-width: 220px;
-       -webkit-column-width: 220px;
-       column-width: 220px;*/
-
+  -moz-column-count: 4;
+  -moz-column-gap: 21px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 21px;
+}
+article figure h3{
+  font-family: "HelveticaNeue";
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
 }
