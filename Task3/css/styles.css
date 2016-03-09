@@ -361,7 +361,11 @@ a img#article1{
   width: 220px;
   height: auto;
 }
-
+img.inline{
+  float: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
 div#articlesWrapper{
 /*  -moz-column-width:220px;
 -moz-columns:220px;
