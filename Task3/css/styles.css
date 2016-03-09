@@ -130,13 +130,13 @@ header nav li:hover{
   padding-top: 19px;
 }
 
-.active{
+header nav .active{
   border-top: 1px solid red;
   margin-top: -1px;
   padding-top: 19px;
 }
 
-.active a{
+header nav .active a{
   color: red;
 }
 /*a[class~="link"]{*/
@@ -293,4 +293,53 @@ div.image-block div.row3 div#right{
   background: url(../img/img9.jpg) no-repeat;
   background-position: 50%, 50%;
   float: left;
+}
+div#indexContainer{
+  width: 940px;
+  height: 1643px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h2#indexHeader{
+  font-size: 30px;
+  font-family: "ChunkFive";
+  font-weight: 500;
+  margin-top: 50px;
+  padding-left: 120px;
+  padding-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.navigation li{
+  float: left;
+  list-style: none;
+}
+ul.navigation li a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "HelveticaNeue Medium";
+
+}
+ul.navigation li.active a{
+  color: red;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "HelveticaNeue Medium"
+}
+ul.navigation li.active a span{
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "HelveticaNeue Medium"
+}
+ul.navigation li a:hover{
+  color: red;
+}
+ul.navigation{
+  padding-left: 1px;
+  margin-top: 40px;
 }

@@ -22,5 +22,16 @@
 		<div id="right"></div>
 	</div>
 </div>
+<div id="indexContainer">
+	<h2 id="indexHeader">A Theme Unlike Any Other. Simply Fantastic!</h2>
+	<ul class="navigation clearfix">
+		<li class="active"><a href="index.php">ALL<span>&nbsp/</span></li>
+		<li><a href="index.php">&nbspNEWS<span>&nbsp/</span></li>
+		<li><a href="index.php">&nbspDESIGN<span>&nbsp/</span></li>
+		<li><a href="index.php">&nbspPRINT<span>&nbsp/</span></li>
+		<li><a href="index.php">&nbspART<span>&nbsp/</span></li>
+		<li><a href="index.php">&nbspDEVELOPMENT</li>
+	</ul>
+</div>
 
 <?php include('templates/footer.php') ?>
