@@ -25,23 +25,182 @@
 <div id="indexContainer">
 	<h2 id="indexHeader">A Theme Unlike Any Other. Simply Fantastic!</h2>
 	<ul class="navigation clearfix">
-		<li class="active"><a href="index.php">ALL<span>&nbsp/</span></li>
-		<li><a href="index.php">&nbspNEWS<span>&nbsp/</span></li>
-		<li><a href="index.php">&nbspDESIGN<span>&nbsp/</span></li>
-		<li><a href="index.php">&nbspPRINT<span>&nbsp/</span></li>
-		<li><a href="index.php">&nbspART<span>&nbsp/</span></li>
-		<li><a href="index.php">&nbspDEVELOPMENT</li>
+		<li class="active">
+			<a href="index.php">ALL<span>&nbsp/</span></a></li>
+		<li><a href="index.php">&nbspNEWS<span>&nbsp/</span></a></li>
+		<li><a href="index.php">&nbspDESIGN<span>&nbsp/</span></a></li>
+		<li><a href="index.php">&nbspPRINT<span>&nbsp/</span></a></li>
+		<li><a href="index.php">&nbspART<span>&nbsp/</span></a></li>
+		<li><a href="index.php">&nbspDEVELOPMENT</a></li>
 	</ul>
-	<div id="articlesWrapper" class="three-col">
+	<div id="articlesWrapper" class="four-col">
 		<article class="clearfix">
-			<a href="index.php"><img src="img/article1.jpg" width="220" height="223" id="article1"></a>
-			<figure>
-				<h3>Sticker Mule</h3>
-				<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
-			</figure>
-			<p>Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
-			<img src="img/moreButton.png" class="inline" alt="more">
-			<p>More</p>			
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
+		</article>
+		<article class="clearfix">
+			<a href="index.php">
+				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+			</a>
+			<div class="article-body">
+				<figure>
+					<h3>Sticker Mule</h3>
+					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+				</figure>
+				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+				<img src="img/moreButton.png" class="inline" alt="more">
+				<p id="more">More</p>
+			<div>			
 		</article>
 	</div>
 </div>

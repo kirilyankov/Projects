@@ -350,6 +350,10 @@ div#articlesWrapper{
 }
 article{
   width: 220px;
+  border: 0;
+  
+  border-color: #8a8a8a;
+  border-style: solid;
 }
 article a{
   display: block;
@@ -357,24 +361,35 @@ article a{
   height: auto;
 }
 article figure{
-  width: 220;
+  width: 206px;
   height: auto;
   margin:0;
   padding-left: 13px;
-  padding-right: auto;
+  margin-bottom: 19px;
+}
+article div.article-body{
+  width: 218px;  
+  padding-top: 14px;
+  border-top: 0px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
 }
 a img#article1{
   display: block;
   width: 220px;
   height: auto;
-  margin-bottom: 14px;
 }
-img.inline{
+div#articlesWrapper img.inline{
   float: left;
-    padding-top: 4px;
-    padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 8px;
+  padding-top: 7px;
+  padding-bottom: 4px;
 }
-div#articlesWrapper{
+div.four-col{
   -moz-column-count: 4;
   -moz-column-gap: 21px;
   -webkit-column-count: 4;
@@ -385,4 +400,31 @@ article figure h3{
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;
+}
+article figure figcaption{
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #dbdbdb;
+}
+div#articlesWrapper article p#text{
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: black;
+  width: 190px;
+  padding-left: 13px;
+  padding-right: 15px;
+  padding-bottom: 19px;
+
+}
+div#articlesWrapper article p#more{
+  font-family: "HelveticaNeue";
+  font-size: 12px;
+  line-height: 28px;
+  color: #2e2e2e;
+  font-weight: 600;
+  margin-bottom: 22px;
 }
