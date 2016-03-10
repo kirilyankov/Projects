@@ -50,7 +50,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article2.jpg" width="220" height="293" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
