@@ -64,7 +64,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article3.jpg" width="220" height="183" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -78,7 +78,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article4.jpg" width="220" height="293" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -92,7 +92,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article5.jpg" width="220" height="183" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -106,7 +106,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article6.jpg" width="220" height="293" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -120,7 +120,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article7.jpg" width="220" height="183" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -134,7 +134,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article8.jpg" width="220" height="223" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -148,7 +148,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article9.jpg" width="220" height="234" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -162,7 +162,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article10.jpg" width="220" height="223" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -176,7 +176,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article11.jpg" width="220" height="223" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>
@@ -190,7 +190,7 @@
 		</article>
 		<article class="clearfix">
 			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
+				<img src="img/article12.jpg" width="220" height="269" id="article1"/>
 			</a>
 			<div class="article-body">
 				<figure>

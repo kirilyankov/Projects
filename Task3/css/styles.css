@@ -339,6 +339,14 @@ ul.navigation li.active a span{
 ul.navigation li a:hover{
   color: red;
 }
+ul.navigation li a span{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "HelveticaNeue Medium";
+
+}
 ul.navigation{
   padding-left: 1px;
   margin-top: 40px;
@@ -377,11 +385,6 @@ article div.article-body{
   border-style: solid;
   border-color: #dbdbdb;
   margin-bottom: 20px;
-}
-a img#article1{
-  display: block;
-  width: 220px;
-  height: auto;
 }
 div#articlesWrapper img.inline{
   float: left;
