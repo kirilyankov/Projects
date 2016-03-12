@@ -38,6 +38,24 @@
 			<a href="index.php">
 				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
 			</a>
+
+			<!-- http://codepen.io/ianfarb/pen/ikeAf -->
+			<table>
+				<thead>
+					<tr>
+						<th><img src="img/eye.png"></th>
+						<th><img src="img/clock.png"></th>
+						<th><img src="img/heart.png"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>857</td>
+						<td>07/05/12</td>
+						<td>588</td>
+					</tr>
+				</tbody>
+			</table>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
