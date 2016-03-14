@@ -26,40 +26,41 @@
 	<h2 id="indexHeader">A Theme Unlike Any Other. Simply Fantastic!</h2>
 	<ul class="navigation clearfix">
 		<li class="active">
-			<a href="index.php">ALL<span>&nbsp/</span></a></li>
-		<li><a href="index.php">&nbspNEWS<span>&nbsp/</span></a></li>
-		<li><a href="index.php">&nbspDESIGN<span>&nbsp/</span></a></li>
-		<li><a href="index.php">&nbspPRINT<span>&nbsp/</span></a></li>
-		<li><a href="index.php">&nbspART<span>&nbsp/</span></a></li>
-		<li><a href="index.php">&nbspDEVELOPMENT</a></li>
+			<a href="index.php">ALL<span>&nbsp;/</span></a></li>
+		<li><a href="index.php">&nbsp;NEWS<span>&nbsp;/</span></a></li>
+		<li><a href="index.php">&nbsp;DESIGN<span>&nbsp;/</span></a></li>
+		<li><a href="index.php">&nbsp;PRINT<span>&nbsp;/</span></a></li>
+		<li><a href="index.php">&nbsp;ART<span>&nbsp;/</span></a></li>
+		<li><a href="index.php">&nbsp;DEVELOPMENT</a></li>
 	</ul>
 	<div id="articlesWrapper" class="four-col">
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article1.jpg" width="220" height="223" id="article1"/>
-			</a>
-
-			<!-- http://codepen.io/ianfarb/pen/ikeAf -->
-			<table>
-				<thead>
-					<tr>
-						<th><img src="img/eye.png"></th>
-						<th><img src="img/clock.png"></th>
-						<th><img src="img/heart.png"></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>857</td>
-						<td>07/05/12</td>
-						<td>588</td>
-					</tr>
-				</tbody>
-			</table>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+					<img src="img/article1.jpg" width="220" height="223" class="image-article"/>
+				</a>
+				<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -67,13 +68,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article2.jpg" width="220" height="293" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article2.jpg" width="220" height="293" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -81,13 +101,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article3.jpg" width="220" height="183" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article3.jpg" width="220" height="183" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -95,13 +134,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article4.jpg" width="220" height="293" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article4.jpg" width="220" height="293" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -109,13 +167,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article5.jpg" width="220" height="183" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article5.jpg" width="220" height="183" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -123,13 +200,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article6.jpg" width="220" height="293" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article6.jpg" width="220" height="293" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -137,13 +233,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article7.jpg" width="220" height="183" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article7.jpg" width="220" height="183" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -151,13 +266,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article8.jpg" width="220" height="223" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article8.jpg" width="220" height="223" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -165,13 +299,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article9.jpg" width="220" height="234" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article9.jpg" width="220" height="234" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -179,13 +332,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article10.jpg" width="220" height="223" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article10.jpg" width="220" height="223" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -193,13 +365,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article11.jpg" width="220" height="223" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article11.jpg" width="220" height="223" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
@@ -207,13 +398,32 @@
 			<div>			
 		</article>
 		<article class="clearfix">
-			<a href="index.php">
-				<img src="img/article12.jpg" width="220" height="269" id="article1"/>
+			<div id="overlay">
+				<span id="plus">+</span>
+				<a href="index.php">
+				<img src="img/article12.jpg" width="220" height="269" class="image-article"/>
 			</a>
+			<table class="fixed">
+					<thead>
+						<tr>
+							<th><img src="img/eye.png" width="24" height="13"></th>
+							<th><img src="img/date.png" width="16" height="15"></th>
+							<th><img src="img/likes.png" width="15" height="13"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>857</td>
+							<td>07/05/12</td>
+							<td>588</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			<div class="article-body">
 				<figure>
 					<h3>Sticker Mule</h3>
-					<figcaption>June 15, 2012 &nbsp/&nbsp news, contests</figcaption>
+					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p id="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
 				<img src="img/moreButton.png" class="inline" alt="more">
