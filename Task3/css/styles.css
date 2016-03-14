@@ -212,6 +212,20 @@ footer .right{
   float: right;
   text-align: right;
 }
+footer .right address{
+font-family:"Helvetica"; 
+font-size:12px;
+font-weight:bold;
+line-height: 23px;
+color: #4f5356;
+}
+footer .right p{
+  font-family: "Helvetica";
+  font-size: 11px;
+  line-height: 23px;
+  color: #4f5356;
+
+}
 div.image-block{
   width: 940px;
   height: 501px;
@@ -379,7 +393,7 @@ article #overlay span {
     position: absolute;
     color: rgba(0,0,0,0.75);
     top: 25%;
-    left: 41%;
+    left: 40%;
     line-height: 35px;
     width: auto;
     font-family: Helvetica;
@@ -387,7 +401,7 @@ article #overlay span {
     background: rgba(255,255,255,0.85);
     font-size: 35px;
     text-align: center;
-    padding: 0px 6px 1px 7px;
+    padding: 0px 7px 1px 7px;
     opacity: 1;
     visibility: hidden;
     -webkit-transition: opacity .25s ease;
@@ -437,11 +451,6 @@ article div.article-body{
   padding-top: 14px;
   border: 1px solid #dbdbdb;
   border-top: 0px;
-  /*border-left: 1px;
-  border-right: 1px;
-  border-bottom: 1px;
-  border-style: solid;
-  border-color: #dbdbdb;*/
   margin-bottom: 20px;
 }
 div#articlesWrapper img.inline{
@@ -459,6 +468,7 @@ div.four-col{
 }
 article figure h3{
   font-family: "Helvetica";
+  color: #2e2e2e;
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;
@@ -472,6 +482,7 @@ article figure figcaption{
 }
 div#articlesWrapper article p#text{
   font-family: "Myriad Pro";
+  color: #4f5356;
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
