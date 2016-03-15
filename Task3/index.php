@@ -94,7 +94,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Big Buck Bunny</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -129,7 +129,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Pinterest Icons</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -164,7 +164,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>10 Amazing Websites</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -199,7 +199,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Character Design</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -234,7 +234,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>iPad 3 Review</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -269,7 +269,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Top iPhone Apps</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -304,7 +304,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Service Icons</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -339,7 +339,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Social Media Buttons</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -374,7 +374,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Photo Shoot</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -409,7 +409,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Wedding Art</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
@@ -444,7 +444,7 @@
 			</div>
 			<div class="article-body">
 				<figure>
-					<h3>Sticker Mule</h3>
+					<h3>Silver UI Kit</h3>
 					<figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
 				</figure>
 				<p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
