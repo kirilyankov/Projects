@@ -233,7 +233,7 @@ div.image-block{
   margin-right: auto;
   margin-left: auto;
 }
-div.image-block div.row1 div#left{
+div.image-block div.row1 div.left{
   width: 307px;
   height: 74px;
   background: url(../img/img1.jpg) no-repeat;
@@ -241,7 +241,7 @@ div.image-block div.row1 div#left{
   margin-right: 5px;
   float: left;
 }
-div.image-block div.row1 div#center{
+div.image-block div.row1 div.center{
   width: 315px;
   height: 74px;
   background: url(../img/img2.jpg) no-repeat;
@@ -249,7 +249,7 @@ div.image-block div.row1 div#center{
   margin-right: 6px;
   float: left;
 }
-div.image-block div.row1 div#right{
+div.image-block div.row1 div.right{
   width: 307px;
   height: 74px;
   background: url(../img/img3.jpg) no-repeat;
@@ -288,7 +288,7 @@ div.image-block div.row2 div#rightContainer div#bottom{
 div.image-block div.row3{
   margin-top: 6px;
 }
-div.image-block div.row3 div#left{
+div.image-block div.row3 div.left{
   width: 307px;
   height: 116px;
   background: url(../img/img7.jpg) no-repeat;
@@ -296,7 +296,7 @@ div.image-block div.row3 div#left{
   margin-right: 5px;
   float: left;
 }
-div.image-block div.row3 div#center{
+div.image-block div.row3 div.center{
   width: 315px;
   height: 116px;
   background: url(../img/img8.jpg) no-repeat;
@@ -304,7 +304,7 @@ div.image-block div.row3 div#center{
   margin-right: 6px;
   float: left;
 }
-div.image-block div.row3 div#right{
+div.image-block div.row3 div.right{
   width: 307px;
   height: 116px;
   background: url(../img/img9.jpg) no-repeat;
@@ -337,21 +337,21 @@ ul.navigation li a{
   text-decoration: none;
   color: black;
   font-size: 14px;
-  font-weight: bolder;
+  font-weight: bold;
   font-family: "Helvetica";
 
 }
 ul.navigation li.active a{
-  color: red;
+  color: #f03c3c;
   font-size: 14px;
-  font-weight: 400;
-  font-family: "Helvetica"
+  font-weight: bold;
+  font-family: "Helvetica";
 }
 ul.navigation li.active a span{
   color: black;
   font-size: 14px;
-  font-weight: 400;
-  font-family: "Helvetica"
+  font-weight: bold;
+  font-family: "Helvetica";
 }
 ul.navigation li a:hover{
   color: red;
@@ -360,7 +360,7 @@ ul.navigation li a span{
   text-decoration: none;
   color: black;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: bold;
   font-family: "Helvetica";
 
 }
@@ -383,13 +383,13 @@ article a{
   display: block;
   width: 100%;
 }
-article #overlay{
+article .overlay{
   position: relative;
   height: auto;
   background-color: rgba(0,0,0,0.85);
   /*overflow: hidden;*//*Не знам защо чупи колоните*/
 }
-article #overlay span {
+article .overlay span {
     position: absolute;
     color: rgba(0,0,0,0.75);
     top: 25%;
@@ -407,7 +407,7 @@ article #overlay span {
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
 }
-article #overlay table.fixed{
+article .overlay table.fixed{
   visibility: hidden;
   position: absolute;
   width: 100%;
@@ -415,7 +415,7 @@ article #overlay table.fixed{
   color: #fff;
   table-layout: fixed;
 }
- article #overlay table.fixed td {
+ article .overlay table.fixed td {
  overflow: hidden;
  width: 33%;
  text-align: center;
@@ -425,8 +425,8 @@ article #overlay table.fixed{
  font-weight: 400;
 }
 
-article #overlay:hover span,
-article #overlay:hover table.fixed{
+article .overlay:hover span,
+article .overlay:hover table.fixed{
   visibility: visible;
 }
 
@@ -434,7 +434,7 @@ article img.image-article{
   vertical-align: bottom;
 }
 
-#overlay:hover img.image-article{
+.overlay:hover img.image-article{
   opacity: .1;
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
@@ -480,7 +480,7 @@ article figure figcaption{
   font-weight: 400;
   color: #dbdbdb;
 }
-div#articlesWrapper article p#text{
+div#articlesWrapper article p.text{
   font-family: "Myriad Pro";
   color: #4f5356;
   font-size: 12px;
@@ -493,11 +493,14 @@ div#articlesWrapper article p#text{
   padding-bottom: 19px;
 
 }
-div#articlesWrapper article p#more{
+div#articlesWrapper article p.more{
   font-family: "Helvetica";
   font-size: 12px;
   line-height: 28px;
   color: #2e2e2e;
   font-weight: 600;
   margin-bottom: 22px;
+}
+div#articlesWrapper article a{
+  text-decoration: none;
 }
