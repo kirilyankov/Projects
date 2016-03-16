@@ -35,7 +35,7 @@
 		<li><a href="index.php">&nbsp;ART<span>&nbsp;/</span></a></li>
 		<li><a href="index.php">&nbsp;DEVELOPMENT</a></li>
 	</ul>
-	<div id="articlesWrapper" class="four-col">
+	<div class="articlesWrapper four-col">
 		<article class="clearfix">
 			<div class="overlay">
 				<span class="plus">+</span>

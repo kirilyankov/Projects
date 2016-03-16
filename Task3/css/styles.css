@@ -392,7 +392,7 @@ ul.navigation{
   padding-left: 1px;
   margin-top: 40px;
 }
-div#articlesWrapper{
+div.articlesWrapper{
   margin-top: 25px;
   width: 940px;
   height: 1460px;
@@ -477,7 +477,7 @@ article div.article-body{
   border-top: 0px;
   margin-bottom: 20px;
 }
-div#articlesWrapper img.inline{
+div.articlesWrapper img.inline{
   float: left;
   padding-left: 12px;
   padding-right: 8px;
@@ -504,7 +504,7 @@ article figure figcaption{
   font-weight: 400;
   color: #dbdbdb;
 }
-div#articlesWrapper article p.text{
+div.articlesWrapper article p.text{
   font-family: "Myriad Pro";
   color: #4f5356;
   font-size: 12px;
@@ -517,7 +517,7 @@ div#articlesWrapper article p.text{
   padding-bottom: 19px;
 
 }
-div#articlesWrapper article p.more{
+div.articlesWrapper article p.more{
   font-family: "Helvetica";
   font-size: 12px;
   line-height: 28px;
@@ -525,7 +525,7 @@ div#articlesWrapper article p.more{
   font-weight: 600;
   margin-bottom: 22px;
 }
-div#articlesWrapper article a{
+div.articlesWrapper article a{
   text-decoration: none;
 }
 
@@ -577,4 +577,11 @@ div#articlesWrapper article a{
   -moz-box-shadow: inset 2px 2px 1px #8a8a8a;
   -webkit-box-shadow: inset 2px 2px 1px #8a8a8a;
   box-shadow: inset 2px 2px 1px #8a8a8a;
+}
+section#blog_wrapper{
+  width: 940px;
+  height: 1643px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }

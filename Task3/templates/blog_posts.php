@@ -1,319 +1,430 @@
-    <ul class="categories clearfix">
-        <li class="active"><a href="javascript:void(0)">all</a></li>
-        <li><a href="javascript:void(0)">news</a></li>
-        <li><a href="javascript:void(0)">design</a></li>
-        <li><a href="javascript:void(0)">print</a></li>
-        <li><a href="javascript:void(0)">art</a></li>
-        <li><a href="javascript:void(0)">development</a></li>
+    <ul class="navigation clearfix">
+        <li class="active"><a href="index.php">ALL<span>&nbsp;/</span></a></li>
+        <li><a href="index.php">&nbsp;NEWS<span>&nbsp;/</span></a></li>
+        <li><a href="index.php">&nbsp;DESIGN<span>&nbsp;/</span></a></li>
+        <li><a href="index.php">&nbsp;PRINT<span>&nbsp;/</span></a></li>
+        <li><a href="index.php">&nbsp;ART<span>&nbsp;/</span></a></li>
+        <li><a href="index.php">&nbsp;DEVELOPMENT</a></li>
     </ul>
-    <div class="posts_wrapper clearfix">
-        <div class="column">
-            <!-- post 1 -->
-            <article class="post">
-                <a href="post1.php" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_1.jpg" alt="Sticker Mule" />
+    <div class="articlesWrapper four-col">
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                    <img src="img/article1.jpg" width="220" height="223" alt="article image" class="image-article"/>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="post1.php">Sticker Mule</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                        <li>news, contests</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="post1.php">More</a>
-                </div>
-            </article>
-            <!-- post 5 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_5.jpg" alt="Big Buck Bunny" />
+                <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Sticker Mule</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Big Buck Bunny</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-            <!-- post 9 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_9.jpg" alt="Pinterest Icons" />
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                    <img src="img/article2.jpg" width="220" height="293" alt="article image" class="image-article"/>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Pinterest Icons</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-        </div>
-        <div class="column">
-            <!-- post 2 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_2.jpg" alt="10 Amazing Websites" />
+                <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Big Buck Bunny</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">10 Amazing Websites</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-            <!-- post 6 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_6.jpg" alt="Character Design" />
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                    <img src="img/article3.jpg" width="220" height="183" alt="article image" class="image-article"/>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Character Design</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-            <!-- post 10 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_10.jpg" alt="iPad 3 Review" />
+                <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Pinterest Icons</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">iPad 3 Review</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-        </div>
-        <div class="column">
-            <!-- post 3 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_3.jpg" alt="Top iPhone Apps" />
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                    <img src="img/article4.jpg" width="220" height="293" alt="article image" class="image-article"/>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Top iPhone Apps</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-            <!-- post 7 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_7.jpg" alt="Service Icons" />
+                <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>10 Amazing Websites</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Service Icons</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-            <!-- post 11 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_11.jpg" alt="Social Media Buttons" />
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                <img src="img/article5.jpg" width="220" height="183" alt="article image" class="image-article"/>
+            </a>
+            <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Character Design</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Social Media Buttons</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-        </div>
-        <div class="column">
-            <!-- post 4 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_4.jpg" alt="Photo Shoot" />
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                <img src="img/article6.jpg" width="220" height="293" alt="article image" class="image-article"/>
+            </a>
+            <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>iPad 3 Review</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Photo Shoot</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-            <!-- post 8 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_8.jpg" alt="Wedding Card" />
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                <img src="img/article7.jpg" width="220" height="183" alt="article image" class="image-article"/>
+            </a>
+            <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Top iPhone Apps</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Wedding Card</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-            <!-- post 12 -->
-            <article class="post">
-                <a href="javascript:void(0)" class="post_thumb">
-                    <div class="post_thumb_hover">
-                        <div class="post_hover_info clearfix">
-                            <div class="post_views">857</div>
-                            <div class="post_date">07/05/12</div>
-                            <div class="post_likes">588</div>
-                        </div>
-                    </div>
-                    <img src="img/post_thumb_12.jpg" alt="Silver UI Kit" />
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                <img src="img/article8.jpg" width="220" height="223" alt="article image" class="image-article"/>
+            </a>
+            <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Service Icons</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
                 </a>
-                <div class="post_body">
-                    <h2 class="post_title">
-                        <a href="javascript:void(0)">Silver UI Kit</a>
-                    </h2>
-                    <ul class="post_meta clearfix">
-                        <li>June 15, 2012</li>
-                    </ul>
-                    <div class="post_summary">
-                        Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.
-                    </div>
-                    <a class="post_read_more" href="javascript:void(0)">More</a>
-                </div>
-            </article>
-        </div>
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                <img src="img/article9.jpg" width="220" height="234" alt="article image" class="image-article"/>
+            </a>
+            <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Social Media Buttons</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
+                </a>
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                <img src="img/article10.jpg" width="220" height="223" alt="article image" class="image-article"/>
+            </a>
+            <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Photo Shoot</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
+                </a>
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                <img src="img/article11.jpg" width="220" height="223" alt="article image" class="image-article"/>
+            </a>
+            <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Wedding Art</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
+                </a>
+            </div>          
+        </article>
+        <article class="clearfix">
+            <div class="overlay">
+                <span class="plus">+</span>
+                <a href="index.php">
+                <img src="img/article12.jpg" width="220" height="269" alt="article image" class="image-article"/>
+            </a>
+            <table class="fixed">
+                    <thead>
+                        <tr>
+                            <th><img src="img/eye.png" width="24" height="13" alt=""></th>
+                            <th><img src="img/date.png" width="16" height="15" alt=""></th>
+                            <th><img src="img/likes.png" width="15" height="13" alt=""></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>857</td>
+                            <td>07/05/12</td>
+                            <td>588</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="article-body">
+                <figure>
+                    <h3>Silver UI Kit</h3>
+                    <figcaption>June 15, 2012 &nbsp;/&nbsp; news, contests</figcaption>
+                </figure>
+                <p class="text">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</p>
+                <img src="img/moreButton.png" class="inline" alt="more">
+                <a href="index.php">
+                    <p class="more">More</p>
+                </a>
+            </div>          
+        </article>
     </div>
