@@ -21,6 +21,8 @@
 		<div class="center"></div>
 		<div class="right"></div>
 	</div>
+	<a href="javascript:void(0)" class="slider_prev" title="previous"></a>
+	<a href="javascript:void(0)" class="slider_next" title="next"></a>
 </div>
 <div id="indexContainer">
 	<h2 id="indexHeader">A Theme Unlike Any Other. Simply Fantastic!</h2>
@@ -455,6 +457,12 @@
 			</div>			
 		</article>
 	</div>
+	<nav class="pagination clearfix">
+    <a href="javascript:void(0)" class="current">1</a>
+    <a href="javascript:void(0)" class="">2</a>
+    <a href="javascript:void(0)" class="">3</a>
+    <a href="javascript:void(0)" class="">4</a>
+	</nav>
 </div>
 
 <?php include('templates/footer.php') ?>
