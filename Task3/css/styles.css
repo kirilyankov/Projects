@@ -585,3 +585,17 @@ section#blog_wrapper{
   margin-right: auto;
   margin-left: auto;
 }
+section#blog_wrapper h1{
+  font-size: 30px;
+  font-family: "ChunkFive";
+  font-weight: 500;
+  margin-top: 50px;
+  text-align: center;
+}
+section#about_wrapper{
+  width: 940px;
+  height: 1550px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto; 
+}
