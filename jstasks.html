@@ -33,10 +33,11 @@ function isVowel(character){
 	var vowels = ["a", "o", "u", "e", "i"];
 	return (vowels.indexOf(character) != -1);
 }
+
+/*Test*/
 var character = "b";
-isVowel(character);
-var result = isVowel.toString();
-document.write("<br>"+"Task 3: "+result);
+var result = isVowel(character).toString();
+document.write("<br>" + "Task 3: " + result);
 
 /*Task 4
 Write a function translate() that will translate a text into "rövarspråket". That is, double every
