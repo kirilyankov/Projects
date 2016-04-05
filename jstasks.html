@@ -15,7 +15,7 @@ function max(a,b) {
 
 /*Test*/
 var result = max(3,5);
-document.write("<br>"+"Task 1: "+result);
+console.log("<br>"+"Task 1: "+result);
 
 /*Task2: Define a function maxOfThree() that takes three numbers as arguments*/
 function maxoftree(a,b,c){
@@ -24,7 +24,7 @@ function maxoftree(a,b,c){
 
 /*Test*/
 result = maxoftree(7,5,-1);
-document.write("<br>"+"Task 2: "+result);
+console.log("<br>"+"Task 2: "+result);
 
 /*Task3: Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel,
 false otherwise.*/
@@ -37,7 +37,7 @@ function isVowel(character){
 /*Test*/
 var character = "b";
 var result = isVowel(character).toString();
-document.write("<br>" + "Task 3: " + result);
+console.log("<br>" + "Task 3: " + result);
 
 /*Task 4
 Write a function translate() that will translate a text into "rövarspråket". That is, double every
@@ -45,12 +45,53 @@ consonant and place an occurrence of "o" in between. For example, translate("thi
 should return the string "tothohisos isos fofunon".*/
 
 function translate(string){
-	var consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
-	var separator = "o";
-	var strLength = string.length;
-	for (var i = string.length - 1; i >= 0; i--) {
-		string[i]
-	};
+	var arrayOfStrings = string.split("");
+	var result = "";
+	for (var i = 0; i <= string.length - 1; i++) {
+		//return (isVowel(arrayOfStrings[i]) == true ? arrayOfStrings[i] : arrayOfStrings[i] + "o" + arrayOfStrings[i]).join("");
+		result += (isVowel(arrayOfStrings[i]) == true || arrayOfStrings[i] == " ") ? arrayOfStrings[i] : arrayOfStrings[i] + "o" + arrayOfStrings[i];
+	}
+	return result;
+}
+
+/*Test*/
+console.log(translate("test this text"));
+
+/*Task 5
+Define a function sum() and a function multiply() that sums and multiplies (respectively) all the
+numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and
+multiply([1,2,3,4]) should return 24.*/
+
+function sum(arr){
+	return arr.reduce(function(a,b){
+		return (a + b);
+	});
+}
+
+function multiply(arr){
+	return arr.reduce(function(a,b){
+		return (a * b);
+	});
+}
+
+/*Task 6
+
+Define a function reverse() that computes the reversal of a string. For example, reverse("jag
+testar") should return the string "ratset gaj".*/
+
+function reverse(str){
+	return str.split("").reverse().join("");
+}
+
+/*Task 7
+
+Represent a small bilingual lexicon as a Javascript object in the following fashion
+{"merry":"god", "christmas":"jul", "and":"och", "happy":gott", "new":"nytt", "year":"år"}
+and use it to translate your Christmas cards from English into Swedish.*/
+
+function translateToSwedish(word){
+	var dict = {"merry":"god", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"år"};
+	return dict[word] ? dict[word] : word;
 }
 
 
