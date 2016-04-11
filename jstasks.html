@@ -94,6 +94,21 @@ function translateToSwedish(word){
 	return dict[word] ? dict[word] : word;
 }
 
+/*Task 8
+Write a function findLongestWord() that takes an array of words and returns the length of the
+longest one.*/
+
+function findLongestWord(wordsArr) {
+    return wordsArr.reduce(function (a, b) {
+        return ((a.length > b.length) ? a : b);
+    });
+}
+
+/*Task 9
+Write a function filterLongWords() that takes an array of words and an integer i and returns the
+array of words that are longer than i.*/
+
+
 
 </script>
 
